@@ -1,0 +1,43 @@
+.counter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 180px;
+    height: 56px;
+    font-size: 21px;
+    font-family: Avenir;
+    font-weight: 900;
+}
+
+.counter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+    background-color: blue;
+    border: 1px solid #B24242;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+    background-color: #FBE8E8;
+    color: #B24242;
+    border: 1px solid #B24242;
+}
+
+.decrement {
+    border-radius: 8px 0px 0px 8px;
+    background-color: #FFFFFF;
+    color: #B24242;
+}
+
+.increment {
+    border-radius: 0px 8px 8px 0px;
+    background-color: #B24242;
+    color: #FFFFFF;
+}
